@@ -1,0 +1,82 @@
+main{
+    margin:0 auto;
+    width: 100%;
+    background-image: url('/img2/bgbluewhite.jpg');
+    background-size:cover;
+    background-blend-mode:multiply;
+    
+}
+
+
+h1{
+    margin:0;
+    padding-top:3em;
+    padding-bottom:1em;
+    text-align: center;
+    color:var(--dark);
+}
+.about1{
+    background-color:var(--lightblue);
+    padding-bottom:5em ;
+   
+    
+    
+  }
+  @media only screen and (max-width: 600px){
+    .container-txt1, .container-imgs1{
+        width:100%
+    }
+  }
+  
+  .about1 h1{
+    font-size: 37px;
+    
+    margin-top:-5px
+  }
+  .about1 p{
+    font-size: 22px;
+    
+  }
+  .about-items1{
+    margin-left: auto;
+    margin-right:auto ;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+   
+    flex-direction:column;
+  
+  }
+  .about1 .container-imgs1{
+   
+    width: 70%;
+    height: 90%;
+    margin-bottom: -60px;
+ 
+   
+  }
+  .about1 .container-imgs1 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height:250px ;
+    
+  }
+  .about1 .container-imgs1 img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+  }
+  
+  .about1 .container-txt1{
+   
+    width: 85%;
+    margin-bottom: 2em;
+  }
+  
+ 
+
+
+
+  
